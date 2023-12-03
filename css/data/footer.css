@@ -1,0 +1,170 @@
+footer {
+  width: 100%;
+  height: 573px;
+  border-top: 1px solid lightgray;
+}
+footer .center {
+  width: 1425px;
+  height: inherit;
+  margin: 0 auto;
+}
+footer .center .top {
+  height: 340px;
+  width: inherit;
+}
+footer .center .bottom {
+  height: 233px;
+  width: inherit;
+  position: relative;
+}
+footer .center .top .info {
+  width: 240px;
+  height: inherit;
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: text-bottom;
+  text-align: right;
+}
+footer .center .top .info ul {
+  list-style: none;
+  font-size: 15px;
+  font-family: bani;
+  color: rgb(0, 0, 0);
+  margin-top: 50px;
+  cursor: pointer;
+}
+footer .center .top .info ul .first {
+  margin-bottom: 40px;
+  color: #2b2b2ba1;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer .center .top .info ul .second:hover {
+  color: #2cca88;
+  cursor: pointer;
+}
+footer .center .top .info ul .second .green{
+  width: 35%;
+  transform: scale(0,0);
+  height: 0.9px;
+  background-color: #2cca88;
+  transition: 300ms;
+  
+}
+footer .center .top .info ul .second:hover .green{
+  transform: scale(1,1);
+}
+
+
+footer .center .top .info ul .second {
+  margin-bottom: 18px;
+  transition: 200ms;
+}
+footer .center .top .pic {
+  width: 360px;
+  display: inline-block;
+  height: inherit;
+  text-align: center;
+  vertical-align: top;
+  
+}
+footer .center .top .pic .banimode {
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+footer .center .top .pic .banimode img {
+  object-fit: cover;
+  width: 250px;
+}
+footer .center .top .pic .download {
+  height: 40px;
+  width: 250px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 70px;
+  border: 1px solid #2cca88;
+}
+footer .center .top .pic .download a {
+  color: #2cca88;
+  font-size: 18px;
+  font-family: bani;
+  text-decoration: none;
+  line-height: 40px;
+}
+footer .center .top .pic .logo {
+  width: inherit;
+  display: block;
+  margin: 25px auto;
+}
+footer .center .top .pic .logo ul li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 6px;
+  list-style: none;
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+  padding: 25px;
+  box-sizing: border-box;
+  transition: 300ms;
+}
+footer .center .top .pic .logo ul li img {
+  width: 25px;
+  position: absolute;
+  top: 13px;
+  right: calc(50% - 13px);
+}
+footer .center .top .pic .logo ul li:hover {
+  border-color: #2cca88;
+}
+footer .center .bottom .right img {
+  width: 90px;
+  object-fit: cover;
+  margin-right: 5px;
+  margin-left: 5px;
+  vertical-align: top;
+}
+footer .center .bottom .right {
+  display: inline-block;
+  width: 440px;
+  position: absolute;
+  left: 25px;
+  top: 30px;
+}
+footer .center .bottom .left {
+  display: inline-block;
+  width: 840px;
+}
+footer .center .bottom .left p {
+  font-size: 15px;
+  font-family: bani;
+  overflow: hidden;
+  color: #2b2b2bb0;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.cool {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  text-align: center;
+  background-color: #2cca88;
+  transition: 300ms;
+}
+.cool i {
+  font-size: 40px;
+  color: whitesmoke;
+  margin-top: 7px;
+  transition: 300ms;
+}
+.cool:hover,
+.cool:hover i {
+  background-color: lightgreen;
+  color: darkgreen;
+}

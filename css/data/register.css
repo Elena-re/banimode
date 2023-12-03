@@ -1,0 +1,95 @@
+.register {
+  width: 100%;
+  height: 340px;
+
+  position: relative;
+}
+.register .center {
+  width: 1425px;
+  height: 250px;
+  background-color: #f8f8f8;
+  position: absolute;
+  left: calc(50% - 1425px / 2);
+  top: 30px;
+  text-align: center;
+  border-radius: 30px;
+  background-image: url("../../img/svgexport-7.svg");
+  background-repeat: no-repeat;
+  color: #f2f2f2;
+}
+.register .center h1 {
+  color: black;
+  font-family: bani;
+  font-size: 25px;
+  margin-top: 70px;
+}
+.register .center p {
+  color: black;
+  font-size: 18px;
+  font-family: bani;
+  margin-top: 10px;
+}
+.register .center .submit {
+  width: 635px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: -25px;
+  right: 430px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 70px;
+}
+.register .center .submit .email {
+  width: 60%;
+  height: 60px;
+  background-color: #efefef;
+  border-radius: 70px;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+}
+.register .center .submit .send {
+  width: 30%;
+  height: 60px;
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+  border-radius: 70px;
+  background-color: #00bf6f;
+  transition: 300ms;
+}
+.register .center .submit .email input[type="email"] {
+  width: inherit;
+  height: inherit;
+  background-color: #efefef;
+  border-radius: 70px;
+  outline: none;
+  border: unset;
+}
+.register .center .submit .email input[type="email"]::placeholder {
+  font-size: 16px;
+  font-family: bani;
+  color: #444444;
+}
+.register .center .submit .send input[type="submit"] {
+  width: inherit;
+  height: inherit;
+  background-color: #00bf6f;
+  border-radius: 70px;
+  outline: none;
+  border: unset;
+}
+.register .center .submit .send input[type="submit"] {
+  font-size: 17px;
+  font-family: bani;
+  color: #ffffff;
+  transition: 300ms;
+}
+.register .center .submit .send i {
+  color: rgb(255, 255, 255);
+}
+.register .center .submit .send:hover,
+.register .center .submit .send:hover input[type="submit"] {
+  background-color: #00874f;
+}

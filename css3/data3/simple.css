@@ -1,0 +1,46 @@
+.simple {
+  width: 100%;
+  height: 550px;
+  margin-bottom: 30px;
+}
+.simple .center {
+  width: 1425px;
+  height: inherit;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.simple .center .left {
+  display: inline-block;
+  position: absolute;
+  left: 2px;
+  top: 50px;
+  width: 685px;
+}
+.simple .center .right {
+  display: inline-block;
+  position: absolute;
+  right: 2px;
+  top: 50px;
+  width: 684px;
+}
+.simple .center .right img,
+.simple .center .left img,
+.simple .center .bottom img {
+  border-radius: 20px;
+  transition: 500ms;
+  width: inherit;
+  height: inherit;
+}
+
+.simple .center .right:hover img,
+.simple .center .left:hover img,
+.simple .center .bottom:hover img {
+  transform: scale(1.01, 1.01);
+}
+.simple .center .bottom {
+  position: absolute;
+  top: 300px;
+  left: 8px;
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: bani;
+  src: url(../../fonts/IRANYekanWebFn.eot);
+  src: url(../../fonts/IRANYekanWebFn.ttf);
+  src: url(../../fonts/IRANYekanWebFn.woff);
+  src: url(../../fonts/IRANYekanWebFn.woff2);
+}
+.wrapper {
+  width: 100%;
+}

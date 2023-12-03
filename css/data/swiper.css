@@ -1,0 +1,78 @@
+.swiper-again {
+  height: 510px;
+  width: 100%;
+}
+.swiper-again .center {
+  width: 1425px;
+  height: inherit;
+  margin: 0 auto;
+  text-align: center;
+}
+.observe3 {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+.observe3 .see h1 {
+  color: #2cca88;
+  line-height: 50px;
+  font-size: 20px;
+  font-family: bani;
+  font-weight: bold;
+}
+.observe3 .see {
+  width: 270px;
+  height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 270px / 2);
+  border: 1px solid #2b2b2b;
+  transition: 300ms;
+}
+.observe3 .see:hover {
+  border-color: #0acc8b;
+}
+.flex {
+  flex-direction: column !important;
+}
+.swiper-again .center .swiper-slide img {
+  width: 330px;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 18px;
+  border-radius: 10px;
+}
+.swiper-again .center .mySwiper-5 {
+  height: 280px;
+}
+.swiper-again .center .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.swiper-again .center .text {
+  height: 100px;
+  width: inherit;
+  line-height: 100px;
+  font-size: 30px;
+  font-family: bani;
+}
+.swiper-again .center .swiper-slide .details {
+  display: inline-block;
+  width: auto;
+  position: absolute;
+  right: 14px;
+  bottom: 0;
+  font-size: 16px;
+  font-family: bani;
+  transition: 300ms;
+}
+.swiper-again .center .swiper-slide:hover .details {
+  color: #0acc8b;
+}
